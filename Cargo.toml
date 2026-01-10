@@ -1,0 +1,10 @@
+[package]
+name = "query-engine_rs2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+memmap2 = "0.9"
+rayon = "1.8"
+bytemuck = { version = "1.14", features = ["derive"] }
+aligned-vec = "0.5"
