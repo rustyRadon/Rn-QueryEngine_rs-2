@@ -5,3 +5,4 @@ pub struct ColumnView<'a> {
 pub struct ViewBatch<'a> {
     pub columns: Vec<ColumnView<'a>>,
 }
+
