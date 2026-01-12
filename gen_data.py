@@ -10,7 +10,6 @@ def generate_column(filename, min_val, max_val):
             val = random.randint(min_val, max_val)
             f.write(struct.pack('<i', val))
 
-# New: Generate a dictionary file for departments
 def generate_dept_metadata(filename):
     # Mapping ID 1-5 to Names
     names = ["Engineering", "Sales", "Marketing", "HR", "Legal"]
